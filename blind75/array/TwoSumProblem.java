@@ -14,8 +14,6 @@ public class TwoSumProblem {
         System.out.println(twoSumTwoPointer(nums, target));
     }
 
-
-
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> twoSum = new HashMap<>();
         int[] ans = new int[2];
