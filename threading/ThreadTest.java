@@ -1,10 +1,15 @@
 package threading;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.*;
 
 public class ThreadTest {
 
     public static void main(String[] args) throws Exception {
+
+        List l=new ArrayList<>();
+       // l.stream().filter().map()
 
 //        //Extend
 //        MyThread t=new MyThread();

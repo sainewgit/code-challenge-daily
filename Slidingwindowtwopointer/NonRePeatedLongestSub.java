@@ -12,6 +12,7 @@ public class NonRePeatedLongestSub {
             for (int j = i + 1; j <= s.length(); j++) {
                 System.out.println(s.substring(i, j));
             }
+
         }
     }
 
